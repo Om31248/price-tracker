@@ -10,8 +10,8 @@ Base = declarative_base()
 
 
 def init_db():
-    # import models here so they're registered on Base before create_all runs
-    import models
+    
+    import app.models as models
     Base.metadata.create_all(engine)
 
 

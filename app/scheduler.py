@@ -2,7 +2,7 @@ import logging
 from datetime import datetime
 from apscheduler.schedulers.background import BackgroundScheduler
 
-from scraper import scrape_all_products
+from app.scraper import scrape_all_products
 from config import SCRAPE_INTERVAL_HOURS
 
 logging.basicConfig(level=logging.INFO)

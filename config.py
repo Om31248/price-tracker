@@ -5,7 +5,7 @@ DB_PATH = os.getenv("DB_PATH", "prices.db")
 # how often to check prices (in hours)
 SCRAPE_INTERVAL_HOURS = int(os.getenv("SCRAPE_INTERVAL_HOURS", "6"))
 
-# notifications - leave blank in .env if you're not using them yet
+# notifications 
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL", "")
 
 SMTP_HOST = os.getenv("SMTP_HOST", "")

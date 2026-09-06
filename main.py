@@ -1,8 +1,8 @@
 import time
 import logging
 
-from database import init_db
-from scheduler import start_scheduler
+from app.database import init_db
+from app.scheduler import start_scheduler
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
